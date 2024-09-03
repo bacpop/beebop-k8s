@@ -16,4 +16,4 @@ To scale deployment run `kubectl scale deployment/<depl_name> --replicas=<num_re
 To check all deployments run `kubectl get deploy -n beebop`.
 ### Teardown
 
-Run `./teardown-k8s <env>`
+Run `./teardown-k8s <env>`. replace <env> with current running env
