@@ -46,6 +46,7 @@ spec:
             ]
       containers:
         - name: beebop-server
+          # TODO: update to main when branch is merged
           image: mrcide/beebop-server:test-k8s
           imagePullPolicy: Always
           env:
@@ -197,5 +198,6 @@ spec:
     spec:
       containers:
         - name: beebop-client
+          # TODO: update to main when branch merged
           image: mrcide/beebop-proxy:test-k8s
           imagePullPolicy: Always
