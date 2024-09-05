@@ -4,7 +4,7 @@ A k8s kubernetes cluster using k3s is needed to be setup first. To setup a k8s c
 
 ### Running
 
-Run `./start-k8s <env>` to run the shiny server in k8s. You will need your github access token, as vault access is needed for secrets.
+Run `./start-k8s <env>` to run the beebop in k8s. You will need your github access token, as vault access is needed for secrets.
 
 ### Updating deployment 
 
